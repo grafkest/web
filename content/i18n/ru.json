@@ -1,0 +1,17 @@
+{
+  "brand": {
+    "name": "АИ Ассистент",
+    "label": "AISS",
+    "tagline": "ИИ для малого бизнеса"
+  },
+  "menu": [
+    { "title": "Решения", "href": "/solutions" },
+    { "title": "Отрасли", "href": "/industries" },
+    { "title": "Кейсы", "href": "/cases" },
+    { "title": "Цены", "href": "/pricing" },
+    { "title": "Технологии", "href": "/tech" },
+    { "title": "Блог", "href": "/blog" },
+    { "title": "О нас", "href": "/about" },
+    { "title": "Контакты", "href": "/contacts" }
+  ]
+}

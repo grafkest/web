@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, rgba(79, 70, 229, 0.15), transparent 45%),
+    radial-gradient(circle at bottom right, rgba(6, 182, 212, 0.15), transparent 45%), #0b1020;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.section {
+  @apply container mx-auto flex flex-col gap-12;
+}
+
+.card {
+  @apply rounded-2xl border border-white/5 bg-white/5 p-8 shadow-card backdrop-blur;
+}
+
+a {
+  @apply transition-colors duration-200;
+}
+
+a:hover {
+  @apply text-secondary;
+}
+
+.button-primary {
+  @apply inline-flex items-center justify-center rounded-pill bg-primary px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:bg-primary/90;
+}
+
+.button-ghost {
+  @apply inline-flex items-center justify-center rounded-pill border border-white/20 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition hover:border-white/40 hover:bg-white/10;
+}
+
+.section-title {
+  @apply text-4xl font-semibold leading-tight md:text-5xl;
+}
+
+.section-subtitle {
+  @apply text-lg text-white/70;
+}
