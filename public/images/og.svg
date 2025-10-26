@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0B1020" />
+  <rect x="60" y="60" width="1080" height="510" rx="40" fill="url(#grad)" fill-opacity="0.2" stroke="#4F46E5" stroke-width="4" />
+  <text x="120" y="280" fill="#FFFFFF" font-size="72" font-family="Inter, Arial, sans-serif" font-weight="700">АИ Ассистент</text>
+  <text x="120" y="360" fill="#C7D2FE" font-size="36" font-family="Inter, Arial, sans-serif">Голосовые ассистенты и ИИ-автоматизация для МСБ</text>
+</svg>

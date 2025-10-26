@@ -1,0 +1,17 @@
+{
+  "brand": {
+    "name": "AI Assistant",
+    "label": "AISS",
+    "tagline": "Applied AI for SMB"
+  },
+  "menu": [
+    { "title": "Solutions", "href": "/en/solutions" },
+    { "title": "Industries", "href": "/en/industries" },
+    { "title": "Cases", "href": "/en/cases" },
+    { "title": "Pricing", "href": "/en/pricing" },
+    { "title": "Technology", "href": "/en/tech" },
+    { "title": "Blog", "href": "/en/blog" },
+    { "title": "About", "href": "/en/about" },
+    { "title": "Contact", "href": "/en/contacts" }
+  ]
+}
